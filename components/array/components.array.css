@@ -5,7 +5,6 @@
     height: 100%;
     background-color: black;
     z-index: 1;
- 
     justify-content: center;
     align-items: center;
     color: whitesmoke;
@@ -21,6 +20,7 @@
     background-color: rgba(240, 240, 240, 0.74);
     box-shadow: 1px 2px 7px 5px rgb(233, 233, 233);
     justify-content: center;
+    overflow-y:scroll;
 }
 #arrayDisplayFrame{
     position: relative;
@@ -29,7 +29,7 @@
     top:10%;
     background-color: whitesmoke;
     background-size: cover;
-    background-image: url(../elements/box-bg.svg);
+    background-image: url(/elements/box-bg.svg);
     border: 1px solid rgb(146, 143, 143);
 }
 

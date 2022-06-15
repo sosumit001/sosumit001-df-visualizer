@@ -1,4 +1,4 @@
-import arrayEle from "./components/components.array.js";
+import arrayEle from "./components/array/components.array.js";
 
 //draw array element on screen
 var ArrIndx = 0;
