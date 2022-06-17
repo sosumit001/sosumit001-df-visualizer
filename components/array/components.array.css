@@ -12,7 +12,8 @@
     display: none;
 }
 #arrayContainer{
-    display: flex;
+    display: none;
+    /* display: flex; */
     margin-top: 2.5%;
     height: 90vh;
     margin-left: 2%;
@@ -29,7 +30,7 @@
     top:10%;
     background-color: whitesmoke;
     background-size: cover;
-    background-image: url(/elements/box-bg.svg);
+    background-image: url(/_datastructure/elements/box-bg.svg);
     border: 1px solid rgb(146, 143, 143);
 }
 
