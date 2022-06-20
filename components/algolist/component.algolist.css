@@ -3,13 +3,13 @@
     position: absolute;
     width: 100%;
     min-height: 100vh;
-    background-image: url("/_datastructure/elements/background.svg");
+    background-image: url("../comp-ele/background.svg");
     top:105%;
     border-radius: 20%;
     border-top: 1px solid rgb(71, 70, 70);
     box-shadow: 5px 1px 9px 5px rgba(0, 0, 0, 0.822);
     transition: 1.3s;
-   
+    background-color: black;
 }
 
 #algo-header{
