@@ -1,0 +1,131 @@
+
+#algoListPage{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/_datastructure/elements/background.svg");
+    top:105%;
+    border-radius: 20%;
+    border-top: 1px solid rgb(71, 70, 70);
+    box-shadow: 5px 1px 9px 5px rgba(0, 0, 0, 0.822);
+    transition: 1.3s;
+   
+}
+
+#algo-header{
+   
+    height: 150px;
+    width: 60%;
+    background-color: rgba(91, 110, 99, 0.801);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: auto;
+    color:rgba(240, 248, 255, 0.39);
+    padding-top: 30px;
+    margin-top: 34px;
+    position: relative;
+    transition: 1000ms;
+}
+#algo-header input{
+    height: 30px;
+    width: 200px;
+    color:rgb(196, 202, 207);
+}
+#data-flow-logo{
+    font-size: 32px;
+}
+#dataFlowSlogn{
+    font-size: 20px;
+}
+
+/* algo data list */
+#algo-data-list{
+    margin-top: 23px;
+    height: 65vh;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(61, 58, 58, 0.901);
+    box-shadow: 1px 4px 7px 1px rgba(30, 34, 31, 0.901);
+
+}
+::placeholder{
+    color:rgb(66, 66, 66);
+}
+#BacktoHome{
+    position: absolute;
+    top:5%;
+    left: 2%;
+    width: 80px;
+    height: 40px;
+    background-color:rgba(91, 110, 99, 0.801);
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 1px rgb(70, 68, 68);
+}
+#BacktoHome:hover{
+    box-shadow: none;
+}
+
+#BacktoHome::after{
+    position: absolute;
+    content: "";
+    width: 200%;
+    height: 200%;
+    background-color: rgba(225, 233, 228, 0.4);
+    border-radius: 50%;
+    left: -50%;
+    top:100%;
+    transition: 900ms;
+}
+#BacktoHome:hover::after{
+    top:-50%;
+}
+
+
+#data-list-header-ul{
+   position: relative;
+   left: 0%;
+   height: 50px;
+   width: 100%;
+   display: inline-flex;
+   gap:1px;
+   overflow-x: scroll;
+   overflow-y: hidden;
+}
+
+.data-list-type{
+    list-style-type: none;
+    cursor: pointer;
+    background-color: rgba(91, 110, 99, 0.801);
+    color:rgba(202, 206, 209, 0.39);
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    border-right:2px solid rgba(61, 58, 58, 0.801);
+    user-select: none;
+}
+
+
+#array-type{
+    background-color: rgba(61, 58, 58, 0.801); 
+}
+
+
+
+#data-list-header-ul::-webkit-scrollbar{
+    height: 5px;
+}
+#data-list-header-ul::-webkit-scrollbar-track{
+    background-color:rgba(94, 94, 94, 0.315);;
+}
+#data-list-header-ul::-webkit-scrollbar-thumb{
+    background-color:rgba(145, 145, 145, 0.315);;
+}
+#data-list-header-ul::-webkit-scrollbar-track-piece{
+    background-color:rgba(32, 20, 20, 0.315);;
+}

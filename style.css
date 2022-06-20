@@ -1,14 +1,35 @@
 @import url(./components/array/components.array.css);
+@import url(./components/binary/component.bst.css);
+@import url(./components/Home-page/component.home.css);
+@import url(./components/algolist/component.algolist.css);
 *{
     padding : 0px;
-    margin:0px;
-    
+    margin:0px; 
+}
+body,html{
+  min-height: 100vh;
+  overflow-x:hidden;
 }
 :root{
     --layoutColor:rgba(250, 250, 250, 0.877);
 }
 
-body{
-    min-height: 100vh;
-    overflow: hidden;
-}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
