@@ -4,6 +4,7 @@
 }
 html,body{
     overflow: hidden;
+    background-color: black;
 }
 
 /* home nav bar */
@@ -40,7 +41,7 @@ html,body{
     height: 6%;
     top:52%;
     left: var(--navVar);
-    transition: 500ms;
+    transition: 800ms;
 }
 .nav-buttons{
     list-style:none;

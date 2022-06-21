@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizer</title>
+    <!-- <link rel="stylesheet" href="../array/components.array.css" type="text/css">
+    <link rel="stylesheet" href="../binary/component.bst.css" type="text/css"> -->
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="visualizer.style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/31cc6a3b97.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- loader  -->
+<div id="visualizer-loader">
+<object data="../../elements/loader/loader.svg" type=""></object>
+</div>
+
+<!-- array container -->
+<div id="arrayContainer">
+        <div id="portrait-moder-instruction">
+            <span><h3>Rotate your device for better experience *-* </h3></span>
+        </div>
+       
+        <div id="arrayDisplayFrame">
+          <div id="arrDisplayFrameContainer">
+           
+          </div>
+        </div>
+        <!-- <div id="array-controls">
+            <input placeholder="" width="50px" type="number" min="1" max="50" name="arrayInput" id="array-enteries">
+            <button id="array-add-btn">Add</button>
+        </div> -->
+        <div id="arrayOperations" class="col">
+            <span id="arrayOpsHeading"><h3>operations on array </h3></span>
+            <div id="arrayOperationControl">
+                <span class="btn create-right"><button>create</button></span>
+                <span class="btn sort-right"><button>sort</button></span>
+            </div>
+            <div id="arrayOperationList">
+                <div>
+                    <span class="btn" id="array-left">random</span>
+                    <span class="btn" id="array-random-go-btn"><button id="array-random-btn"  >Go</button></span>
+                 </div>
+              
+                <div>
+                    <span class="btn" id="array-left">pop()</span>
+                   <!-- <input type="number" min="1" max = "80" class="array-input"> -->
+                   <span class="btn" id="array-delete-go-btn"><button id="array-remove-btn" >Go</button></span>
+                </div>
+               
+                 <div>
+                    <span class="btn" id="array-left">push()</span>
+                   <input inputmode="numeric" type="number" id="array-enteries" class="array-input">
+                   <span class="btn" id="array-insert-go-btn"><button id="array-add-btn">Go</button></span>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!-- bst container -->
+<div id="bstContainer">
+        <div id="bstControl">
+            <input type="number" name="" id="bst-input-ele">
+            <button id="bst-insert-btn">Go</button>
+        </div>
+        <div id="bstDisplayFrame">
+         
+        </div>
+</div>
+</body>
+
+<script src="./visualizer.script.js" type="module"></script>
+</html>

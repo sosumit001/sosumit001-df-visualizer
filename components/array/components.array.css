@@ -12,26 +12,27 @@
     display: none;
 }
 #arrayContainer{
-    display: none;
+    display: flex;
     /* display: flex; */
     margin-top: 2.5%;
     height: 90vh;
     margin-left: 2%;
     width: 96%;
-    background-color: rgba(240, 240, 240, 0.74);
-    box-shadow: 1px 2px 7px 5px rgb(233, 233, 233);
+    background-color: rgb(37, 44, 40);
     justify-content: center;
-    overflow-y:scroll;
+  
 }
 #arrayDisplayFrame{
     position: relative;
     width: 480px;
     height: 400px;  /* w = (12/5)B*/
     top:10%;
-    background-color: whitesmoke;
+    background-color: rgb(32, 32, 32);
     background-size: cover;
-    background-image: url(/_datastructure/elements/box-bg.svg);
-    border: 1px solid rgb(146, 143, 143);
+    background-image: url(../../elements/box-bg.svg);
+    border: 1px solid rgba(0,0,0);
+
+    
 }
 
 #arrDisplayFrameContainer{
@@ -56,9 +57,9 @@
 }
 .array-rect{
     width: 100%;
-    fill:rgba(186, 138, 236, 0.589);
+    fill:rgba(94, 100, 97, 0.801);
     stroke: rgb(13, 15, 15);
-    fill-opacity: 0.7;
+  
     transition: 1000ms;
 }
 .array-rect:hover{
@@ -77,10 +78,11 @@
     flex-direction: column;
     align-items: center;
     gap: 1px;
+    background-color: rgb(32, 32, 32);
 }
 #arrayOperations:hover{
     transform: scale(1.07); 
-    box-shadow: 1px 1px 6px 1px rgb(197, 194, 194);
+    box-shadow: 1px 1px 6px 1px rgba(37, 37, 37);
 }
 
 #arrayOpsHeading{
@@ -91,8 +93,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    color: rgba(168, 168, 168, 0.87);
-    box-shadow: 1px 1px 5px 1px rgba(219, 218, 218, 0.753);
+    color: rgba(168, 168, 168, 0.548);
+    background-color: rgb(32, 32, 32);
 }
 #arrayOperationControl{
     width: 90%;
@@ -141,19 +143,19 @@ input{
 }
 #array-left{
     height: 40px;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(19, 19, 19);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40%;
-    color: rgba(135, 140, 145, 0.712);
+    color: rgba(107, 109, 107, 0.712);
    
 }
 .btn button{
    width: 120px;
    height: 40px;
-   background-color: whitesmoke;
-   box-shadow: 1px 1px 5px 1px rgba(219, 218, 218, 0.753);
+   background-color: rgb(65, 65, 65);
+
 }
 button{
     outline: none;
@@ -162,7 +164,7 @@ button{
     width: 60px;
     cursor: pointer;
     background-color:var(--layoutColor);
-    color:rgb(172, 165, 165)
+    color:rgb(108, 116, 110)
 }
 
 @media only screen and (max-width: 950px) {
