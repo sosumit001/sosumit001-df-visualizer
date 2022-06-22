@@ -13,6 +13,11 @@
                 <line x1="0" y1="320" x2="480" y2="320" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
                 <line x1="0" y1="360" x2="480" y2="360" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
                 <line x1="0" y1="400" x2="400" y2="400" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
+                 <line x1="0" y1="440" x2="480" y2="440" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
+                <line x1="0" y1="480" x2="480" y2="480" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
+                <line x1="0" y1="520" x2="480" y2="520" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
+                <line x1="0" y1="560" x2="480" y2="560" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
+                <line x1="0" y1="600" x2="400" y2="600" style="stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
 
                 <line x1="40" y1="0" x2="40" y2="480"   style="  stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />
                 <line x1="80" y1="0" x2="80" y2="480"   style="  stroke:rgba(91, 140, 99, 0.09);stroke-width:2" />

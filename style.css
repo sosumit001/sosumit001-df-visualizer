@@ -2,7 +2,7 @@
 @import url(./components/binary/component.bst.css);
 @import url(./components/Home-page/component.home.css);
 @import url(./components/algolist/component.algolist.css);
-
+@import url(./components/linkedlist/component.linkedlist.css);
 * {
   padding: 0px;
   margin: 0px;

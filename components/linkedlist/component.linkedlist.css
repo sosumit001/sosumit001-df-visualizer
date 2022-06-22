@@ -1,0 +1,21 @@
+#linkedlistContainer{
+    display: flex;
+    /* display: flex; */
+    margin-top: 2.5%;
+    height: 90vh;
+    margin-left: 2%;
+    width: 96%;
+    background-color: rgb(37, 44, 40);
+    justify-content: center;
+}
+#linkedlistDisplayFrame{
+    position: relative;
+    width: 840px;
+    height: 420px;  /* w = (12/5)B*/
+    top:10%;
+    background-color: rgb(32, 32, 32);
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../elements/ll-box.svg);
+    border: 1px solid rgba(0,0,0);
+}
