@@ -1,0 +1,28 @@
+#algo-code-editor{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    top:0%;
+    display: none;
+    transition: 1.3s;
+    background-color: rgba(14, 14, 14, 0.901);
+ 
+}
+#editor-components{
+    position: relative;
+    top:2vh;
+    width:95%;
+    left: 2.5%;
+    height: 95vh;
+   
+    display: flex;
+}
+#code-display{
+    width: 60%;
+    top:50px;
+    height: 500px;
+    font-size: 16px;
+   
+    transition: 500ms;
+    
+}

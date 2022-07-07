@@ -1,91 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Structure</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./components/components.array.css" type="text-css">
-  
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/31cc6a3b97.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<!-- home page page -->
-<div id="data-flow-home">
+    <!-- home page page -->
+    <div id="data-flow-home">
 
-    <div id="data-flow-bg">
-        <div id="home-nav-bar">    
-            <ul class="nav-ul">
-                <li class="nav-buttons"><a id="menu-button">Home</a></li>
-                <li class="nav-buttons "><a id="visualizer-button">Visualizer</a></li>
-                <li class="nav-buttons "><a id="code-editor-button">CodeEditor</a></li>
-                <li class="nav-buttons "><a href="#" id="about-button">About</a></li>
+        <div id="data-flow-bg">
+            <div id="home-nav-bar">
+                <ul class="nav-ul">
 
-            </ul>
+                    <li class="nav-buttons"><a id="menu-button">Home</a> <span></span></li>
+                    <li class="nav-buttons "><a id="visualizer-button">Visualizer</a> <span></span></li>
+                    <li class="nav-buttons "><a id="code-editor-button">CodeEditor</a> <span></span></li>
+                    <li class="nav-buttons "><a href="#" id="about-button">About</a> <span></span></li>
+
+                </ul>
+            </div>
+            <div id="home-slogn">
+                <span>Grow your programming skill through visualization</span>
+                <ul>
+                    <li>Code in your favorite language</li>
+                    <li>Analysis basic data structure</li>
+                </ul>
+                <button>Try for Free</button>
+            </div>
+            <div id="homeSvg">
+                <object width="100%" height="100%" type="image/svg+xml" data="./elements/homeDataFlow.svg">
+                </object>
+
+            </div>
         </div>
-        <div id="home-slogn">
-            <span>Grow your programming skill through visualization</span>
-            <ul>
-                <li>Code in your favorite language</li>
-                <li>Analysis basic data structure</li>
-            </ul>
-            <button>Try for Free</button>
-        </div>
-        <div id="homeSvg">
-            <object width="100%" height="100%" type="image/svg+xml" data="./elements/homeDataFlow.svg">
-            </object>
-        
-        </div>
+
     </div>
-
-</div>
-<!-- algoList page -->
-<div id="algoListPage">
-    <div id="algo-header">
-        <div id="algo-header-button">
-            <button id="BacktoHome">Prev</button>
+    <!-- algoList page -->
+    <div id="algoListPage">
+        <button id="BacktoHome">Prev</button>
+    
+        <div id="algo-flexbox-container">
+            <div class="algo-flexbox">
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt pariatur rem inventore soluta repellendus sint expedita perferendis libero, repellat cum blanditiis, exercitationem voluptatibus, possimus rerum ea iure? Laboriosam, velit ad?</p>
+                </section>
+            </div>
+            <div class="algo-flexbox">
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt pariatur rem inventore soluta repellendus sint expedita perferendis libero, repellat cum blanditiis, exercitationem voluptatibus, possimus rerum ea iure? Laboriosam, velit ad?</p>
+                    <!-- <button>Visualize</button> -->
+                </section>
+            </div>
+         
+           
         </div>
-        <span id="data-flow-logo">DATAFLOW</span>
-        <span id="dataFlowSlogn">this space is for slogn to inspire</span>
-        <input placeholder="search..." type="search" name="" id="">
+
+
     </div>
-
-    <div id="algo-data-list">
-       <div id="algo-data-list-header">
-        <div id="data-list-header-ul">
-            <li id="array-type" class="data-list-type">ARRAY</li>
-            <li id="bst-type" class="data-list-type">BINARY TREE</li>
-            <li id = "graph-type" class="data-list-type">GRAPH</li>
-            <li id = "" class="data-list-type">HEAP</li>
-            <li class="data-list-type">STACK</li>
-            <li class="data-list-type">QUEUE</li>
-            <li class="data-list-type">SORTING</li>
-        </div>
-       </div>
-
-       <div id="algo-data-container">
-        <div id="algo-operation-on-data">
-            <ul id="algo-operation-item">
-                <li>Insertion</li>
-                <li>Deletion</li>
-                <li>Sorting Array</li>
-            </ul>
-        </div>
-        <div id="algo-data-thumnail">
-      <a href="./components/visualizer/visualizer.index.html" target="_blank" >
-        <img class="algo-static-img" src="/elements/thumbnails/_arr_.png" alt="">
-        <img src="/elements/thumbnails/_arr_.gif" alt="">
-      </a>
-        </div>
-       </div>
-     
-</div>
 
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <script src="script.js" type="module"></script>
+
 </html>

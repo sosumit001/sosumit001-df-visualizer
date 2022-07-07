@@ -1,0 +1,21 @@
+{
+  "name": "code_editor_df-component",
+  "version": "1.0.0",
+  "description": "\"code editor to run scratch logics\"",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "compilex": "^0.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "qs": "^6.11.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

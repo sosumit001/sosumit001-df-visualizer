@@ -1,5 +1,3 @@
-
-
 // ** aboutPage
 $("#about-button").on('click',()=>{
     $(".nav-ul").css({
@@ -21,7 +19,7 @@ $("#visualizer-button").on('click',()=>{
    
     $("#algoListPage").css({
         "top":0+"%",
-        "border-radius":"0",
+   
     })
     $("#algo-header").css({
         "width":80+"%",
@@ -37,12 +35,13 @@ $("#BacktoHome").on('click',()=>{
     })
     $("#algoListPage").css({
         "top":105+"%",
-        "border-radius":"50%",
+  
     })
     $(".nav-ul").css({
         "--navVar":-79+"%",
     })
 })
+
 
 
 $("#code-editor-button").on("click",()=>{
@@ -63,5 +62,3 @@ $("#data-list-header-ul").hover(()=>{
        })
    })
 })
-//scroller event
-
