@@ -82,9 +82,7 @@ $('.fa-code').on('click', () => {
 
 
 // loader animations
-$("#arrayContainer").css({
-    "display": "none"
-})
+
 setTimeout(() => {
 
     $("#visualizer-loader").css({
@@ -99,11 +97,7 @@ setTimeout(() => {
 
 
 }, 2500);
-setTimeout(() => {
-    $("#arrayContainer").css({
-        "display": "inline-flex"
-    })
-}, 2800);
+
 //theme-on-ff
 $('.fa-moon').click(() => {
     if (isLight) {
