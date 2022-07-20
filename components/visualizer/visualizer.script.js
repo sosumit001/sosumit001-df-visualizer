@@ -2,6 +2,7 @@
 import Array from "../array/component.array.js";
 import { Node, bstSvg } from "../binary/component.bst.js";
 import LinkedListItem from "../linkedlist/component.linkedlist.js";
+
 var btnActive = true;
 var isLight = true;
 var sideNav = true;
@@ -19,8 +20,9 @@ int main()
 
 var editor = ace.edit("code-editor-display");
 
-editor.setTheme("ace/theme/tomorrow_night_bright");
+
 editor.session.setMode("ace/mode/c_cpp");
+editor.setTheme("ace/theme/dreamweaver");
 editor.setValue(userInput)
 editor.gotoLine(6);
 
