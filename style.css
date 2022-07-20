@@ -15,6 +15,7 @@ html {
 }
 
 :root {
+  --home-common-color-1:rgba(58, 3, 53, 0.829);
   --layoutColor: rgba(250, 250, 250, 0.877);
   --home-button-color:#2e2626;
   --textColor: #212121;
@@ -54,6 +55,7 @@ html,body{
 
 /* home nav bar */
 .nav-ul{
+  background-color:var(--mainBg);
   margin-top:10px;
   color: rgba(255, 251, 242, 0.87);
   width: 500px;
@@ -72,7 +74,6 @@ html,body{
   padding-left: 5px;
   padding-right: 5px;
   /* border: 1px solid black; */
- 
 }
 
 
@@ -117,16 +118,16 @@ html,body{
   left: 5%;
   width: 90%;
   height: 400px;
-  background-color:rgba(24, 58, 37, 0.829);
+  background-color:var(--home-common-color-1);
   background-image: url("./components/comp-ele/background.svg");
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 3px;
   gap: 2px;
   color: whitesmoke;
-  box-shadow: 2px 2px 3px 2px rgba(24, 58, 37,0.9);
+  box-shadow: 2px 2px 3px 2px rgba(233, 233, 255, 0.9);
 }
 
 #home-slogn span{
@@ -138,6 +139,13 @@ html,body{
   user-select: none;
 
 }
+#home-slogn span::first-letter
+{
+  color:rgb(192, 198, 252);
+  font-size:60px;
+  font-family:monospace;
+}
+
 
 #home-slogn span::selection,#home-slogn ul li::selection{
   background-color: rgb(216, 216, 179);
@@ -145,7 +153,7 @@ html,body{
 #home-slogn button{
   position: relative;
   /* background-color: var(--home-button-color); */
-  background-color: rgba(255, 255, 255, 0);
+ 
   width: 300px;
   font-size: 16px;
   height: 50px;
@@ -156,20 +164,24 @@ html,body{
   padding: 1.4rem ;
   display: grid;
   place-content: center;       
-
+  background-color:rgb(192, 198, 252);
 }
 #home-slogn button:active{
     box-shadow: none;
 }
 
-#home-descrip li{
+#home-descrip li:nth-child(n){
 
  height: 30px;
  padding-left:22px ;
  padding-right: 22px;
  list-style: none;
- 
+ font-size: large;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+
 @media only screen and (max-width: 670px){
   #home-slogn{
       gap: 14px;
@@ -188,38 +200,77 @@ html,body{
    
   }
 }
-@media only screen and (max-width: 830px){
-  #home-nav-bar ul{
-      display: flex;
-      width: 100%;
-      align-items: center;
-      justify-content: space-around;
-  }
+@media only screen and (max-width: 900px){
+  #home-slogn{
+    gap: 14px;
+    height: 380px;
+    text-align: center;
+    transform: translate(0%, 10%);
 }
-@media only screen and (max-width: 400px){
-  .nav-buttons a{
-      font-size: 12px;
-  }
- 
-      #home-nav-bar ul{
-        width: 100%;
-      }
-      .nav ul li{
-          font-size: 6px;
-      }
-  #homeSvg{
-      top:50vh;
-  }
+#home-slogn span{
+    font-size: 20px;
+    width:80%;
+}
+#home-slogn span::first-letter{
+  font-size: 22px;
+}
 
+.nav-ul{
+
+  width: 100%;
+}
+
+#home-descrip li:nth-child(n){
+  width: 95%;
+  height: 50px;
+  margin: auto;
+}
+}
+@media only screen and (max-width: 450px){
+  #home-slogn{
+    gap: 14px;
+    height: 380px;
+    text-align: center;
+    transform: translate(0%, 10%);
+}
+#home-slogn span{
+    font-size: 18px;
+    width:80%;
+}
+#home-slogn span::first-letter{
+  font-size: 18px;
+}
+
+.nav-ul{
+
+  width: 100%;
+}
+
+#home-descrip li:nth-child(n){
+  width: 95%;
+  height: 50px;
+  margin: auto;
+}
 
 }
-@media only screen and (max-height: 640px){
+@media only screen and (max-height: 540px){
   #home-slogn{
       gap: 14px;
+      height: 280px;
+      text-align: center;
+      transform: translate(0%, 5%);
   }
-  #home-slogn ul li{
-      font-size: 12px;
+  #home-slogn span{
+      font-size: 16px;
       width:100%;
+  }
+  #home-slogn span::first-letter{
+    font-size: 18px;
+  }
+  #home-descrip li:nth-child(n){
+    width: 95%;
+    height: 50px;
+    margin: auto;
   }
 
 }
@@ -295,7 +346,7 @@ html,body{
   transform: translate(100%,50%);
   width: 400px;
   height: 300px;
-  background-color:#e6e6e6;
+  background-color:#f8f4ff;
   display: flex;
   align-items: center;
   flex-direction: column;
